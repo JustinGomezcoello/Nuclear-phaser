@@ -1,0 +1,113 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/agua.png",
+                "type": "image",
+                "key": "agua"
+            },
+            {
+                "url": "assets/agua2.png",
+                "type": "image",
+                "key": "agua2"
+            },
+            {
+                "url": "assets/agua3.png",
+                "type": "image",
+                "key": "agua3"
+            },
+            {
+                "url": "assets/agua4.png",
+                "type": "image",
+                "key": "agua4"
+            },
+            {
+                "url": "assets/agua5.png",
+                "type": "image",
+                "key": "agua5"
+            },
+            {
+                "url": "assets/Apagar.png",
+                "type": "image",
+                "key": "Apagar"
+            },
+            {
+                "url": "assets/Apagar2.png",
+                "type": "image",
+                "key": "Apagar2"
+            },
+            {
+                "url": "assets/boton mas.png",
+                "type": "image",
+                "key": "boton mas"
+            },
+            {
+                "url": "assets/boton menos.png",
+                "type": "image",
+                "key": "boton menos"
+            },
+            {
+                "url": "assets/Controles.png",
+                "type": "image",
+                "key": "Controles"
+            },
+            {
+                "url": "assets/dino.png",
+                "key": "dino",
+                "type": "image"
+            },
+            {
+                "url": "assets/Instrucciones.png",
+                "type": "image",
+                "key": "Instrucciones"
+            },
+            {
+                "url": "assets/OFF.png",
+                "type": "image",
+                "key": "OFF"
+            },
+            {
+                "url": "assets/ON.png",
+                "type": "image",
+                "key": "ON"
+            },
+            {
+                "url": "assets/Panel de Control.png",
+                "type": "image",
+                "key": "Panel de Control"
+            },
+            {
+                "url": "assets/perdida.png",
+                "type": "image",
+                "key": "perdida"
+            },
+            {
+                "url": "assets/reactor1.png",
+                "type": "image",
+                "key": "reactor1"
+            },
+            {
+                "url": "assets/reactor2.png",
+                "type": "image",
+                "key": "reactor2"
+            },
+            {
+                "url": "assets/Tiempo.png",
+                "type": "image",
+                "key": "Tiempo"
+            },
+            {
+                "url": "assets/TV - 128.png",
+                "type": "image",
+                "key": "TV - 128"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
