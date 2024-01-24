@@ -289,7 +289,7 @@ class Level extends Phaser.Scene {
 
 
 
-		//this.temporizador(); // Llama a la función para iniciar el temporizador
+		
 
 
 		this.oFF.visible = false;
@@ -540,52 +540,9 @@ const intervaloTemporizador = setInterval(() => {
 		this.oFF.visible = !this.oFF.visible;
 	}
 
-	// Función para actualizar el temporizador y manejar la imagen
- actualizarTemporizador() {
-    temporizador--;
-
-    // Actualizar la visualización del temporizador donde sea necesario
-    // Puedes utilizar 'temporizador' en tu lógica para mostrar el tiempo restante
-
-    if (temporizador === 0) {
-        // Mostrar la imagen cuando el temporizador llega a 0
-        this.perdida.visible = true;
-        // Detener el evento de actualización del temporizador
-        eventoTemporizador.remove();
-    }
-}
+	
 
 
-
-
-
-
-	/*temporizador(){
-
-		 this.timer = this.time.addEvent({
-            delay: 1000, // Cada segundo
-            callback: this.onTimerTick, // Función a llamar cada vez que pasa el tiempo
-            callbackScope: this,
-            loop: true // Repetir el temporizador automáticamente
-        });
-	}
-
-	onTimerTick(){
-
-		console.log("chao");
-		this.initialTime=30;
-		this.initialTime -= 1; // Disminuir el tiempo en 1 segundo
-        // Actualizar el texto del temporizador en pantalla (cambia "timerText" por tu objeto de texto)
-        timerText.setText('Tiempo: ' + this.initialTime);
-
-        if (this.initialTime === 0) {
-            // Detener el temporizador si ha llegado a cero
-            this.timer.remove(false); // Detiene el evento del temporizador sin borrarlo para futuras referencias
-            // Aquí puedes agregar acciones adicionales al llegar a cero
-        }
-
-
-	}*/
 
 
 	/* END-USER-CODE */
